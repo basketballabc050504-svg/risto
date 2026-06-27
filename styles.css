@@ -158,7 +158,6 @@ h2 {
 }
 
 .add-row button,
-.save-button,
 .delete-button {
   min-height: 44px;
   border: 0;
@@ -167,14 +166,12 @@ h2 {
   cursor: pointer;
 }
 
-.add-row button,
-.save-button {
+.add-row button {
   background: var(--accent);
   color: #fff;
 }
 
-.add-row button:hover,
-.save-button:hover {
+.add-row button:hover {
   background: var(--accent-dark);
 }
 
@@ -245,8 +242,7 @@ h2 {
 
 .edit-form {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 66px;
-  gap: 8px;
+  grid-template-columns: minmax(0, 1fr);
   min-width: 0;
 }
 
